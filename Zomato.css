@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Zomoto-Main{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    color: white;
+
+}
+
+/* .heder{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+} */
+
+.header-Main{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.app{
+    padding:25px  200px;
+}
+
+
+
+.div ul{
+    /* margin-left: 100px; */
+    margin-top: -10px;
+    padding: 20px;
+    padding-right: 200px;
+    list-style-type: none;
+    display: flex;
+}
+
+.div ul li{
+    cursor: pointer;
+    padding: 20px;
+}
+.title{
+    height: 60px;
+    width: 100%;
+    /* background-color: rgb(27, 127, 214); */
+    display: flex;
+    justify-content: center;
+    margin: 1px auto ;
+    transition: 1.4s;
+   
+}
+.title img{
+    height: 65px;
+    width: 280px;
+   
+}
+.description{
+    line-height: 40px;
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description{
+    font-size:2.2rem;
+}
+
+.searchMain{
+    height: 50px;
+    width: 780px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: auto;
+}
+
+.search{
+    display: flex;
+    margin: auto;
+}
+.searchMain select,option{
+    margin: 9px;
+    color: black;
+    border: none;
+    height: 25px;
+    width: 170px;
+
+}
+span{
+    margin: 8px;
+}
+
+.Divi{
+    margin: 15px;
+    color: rgba(128, 128, 128, 0.464);
+
+}
+
+
+.svg{
+    margin: 14px;
+}
+
+.input{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 0;
+    height: 30px ;
+    width: 450px;
+    border: none;
+}
+
+/* --------------------------  "  events  "  ------------------------------- */
+
+.events{
+    color: #000;
+    display: flex;
+    padding-left:  20px;
+    margin:   auto;
+    justify-content: center;
+    
+
+
+}
+
+.order, .dining, .live {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    color: #000;
+
+}
+.order img, .dining img, .live img{
+    border-radius: 20px 20px 0 0;
+}
+
+.order  img:hover, .dining  img:hover, .live  img:hover{
+    border-radius: 20px 20px 0 0;
+    height:190px;
+    width:400px;
+}
+
+/* --------------------------  "  Collection  "  ------------------------------- */
+
+.collections{
+    margin: 0 auto;
+    
+}
+
+.head{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    /* justify-content: center;    */
+}
+.coll{
+    text-indent: 170px;
+ 
+
+
+}
+
+.coll-cart{
+    cursor: pointer;
+    color: white;
+    text-indent: 20px;
+    line-height: 25px;
+    display: flex;
+    margin: auto;
+padding: auto;    display: flex;
+    justify-content: center;
+}
+
+/* .spot img, .rooftop img, .places img, .date img{
+    height: 200px;
+    width: 200px;
+} */
+
+.spot{
+    background: url(https://b.zmtcdn.com/data/collections/684397cd092de6a98862220e8cc40aca_1709810207.png?output-format=webp);
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+}
+.rooftop{
+    background: url(https://b.zmtcdn.com/data/collections/2b9361aa328a43b08986f77bbec280bd_1709810493.png?output-format=webp);
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+
+}
+.places{
+    background: url(https://b.zmtcdn.com/data/collections/7771cf3a18e1da2916794d3998260c69_1709811176.png?output-format=webp);
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+
+}
+.date{
+    background: url(https://b.zmtcdn.com/data/collections/2e8b954961d07f927802853d5944d67b_1709812883.png?output-format=webp);
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+
+}
+
+/* -----------------------------------------------------" zomotoApp "------------------------------------------------------ */
+
+.zomotoApp {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background:rgba(255, 239, 213, 0.749);
+    
+
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    overflow: clip; 
+}
+.img>img{
+    height: 500px;
+    width: 500px;
+}
+
+.App{
+
+    padding-left: 7.5rem;
+    margin-left: 00px;
+    margin-top: 1px;
+    line-height: 30px;
+    width: 500px;
+    height: 500px;
+
+}
+
+.sc{
+    font-size: 2.5rem;
+}
+.sc1{
+    font-size: 10pxpx;
+}
+
+.input-email{
+    height: 40px;
+    width: 280px;
+    border-radius: 6px;
+    border:1px solid gray;
+    background-color: white;
+}
+
+.buttom-email{
+    height: 40px;
+    width: 170px;
+    border-radius: 6px;
+    border:1px solid gray;
+    background-color:rgba(213, 48, 22, 0.866);
+    cursor: pointer;
+}
+
+.sc3{
+    color: rgba(128, 128, 128, 0.674);
+    font-family: serif;
+}
+
+/* -----------------------------------------------------" footer "------------------------------------------------------ */
+.footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(243, 243, 243);
+}
+
+.bGfHbP {
+    padding-left: 13vw;
+    padding-right: 13vw;
+    line-height: 30px;
+    max-width: 110rem;
+    width: 110rem;
+    padding: 4.8rem 0px 2.2rem;
+    position: relative;
+    color: rgb(105, 105, 105);
+}
+.gzcbGg{
+    display: flex;
+    justify-content: space-between;
+}
+.jPUyxY{
+    display: flex;
+}
+
+div, p, span {
+    font-size: 1.6rem;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+.gQXbfm{
+    color: rgb(193, 189, 189);
+    font-size: 2rem;
+    font-family:Tahoma;
+}
+
+.btDUHh {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0px;
+}
+
+.jYhtHx {
+    color: rgb(105, 105, 105);
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 16.6667%;
+    padding: 0px;
+}
+.RAjVl{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.kBllqA{
+    color: rgb(93, 90, 90);
+    font-family: Okra;
+}
